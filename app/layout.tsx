@@ -16,6 +16,10 @@ export const metadata: Metadata = {
   title: "MEtrcs",
   description:
     "The operating system for human performance.",
+
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
