@@ -195,6 +195,30 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ENDURANCE */}
+<section className="px-6 py-24">
+  <div className="mx-auto grid max-w-6xl items-center gap-16 lg:grid-cols-2">
+    <div>
+      <p className="mb-4 text-sm uppercase tracking-[0.2em] text-zinc-500">
+        Endurance
+      </p>
+
+      <h2 className="text-4xl font-semibold tracking-tight">
+        Because endurance matters.
+      </h2>
+
+      <p className="mt-6 max-w-xl text-lg leading-8 text-zinc-400">
+        Endurance is not about average values.
+      </p>
+    </div>
+
+    <DualPhoneMockups
+      first={{ src: "/endurance1.png", alt: "MEtrcs Endurance Analysis" }}
+      second={{ src: "/endurance2.png", alt: "MEtrcs Heart Rate Analysis" }}
+    />
+  </div>
+</section>
+
       {/* STRENGTH */}
       <section className="px-6 py-24">
         <div className="mx-auto grid max-w-6xl items-center gap-16 lg:grid-cols-2">
