@@ -195,6 +195,32 @@ export default function Home() {
         </div>
       </section>
 
+      </section>
+
+      {/* STRENGTH */}
+      <section className="px-6 py-24">
+        <div className="mx-auto grid max-w-6xl items-center gap-16 lg:grid-cols-2">
+          <div>
+            <p className="mb-4 text-sm uppercase tracking-[0.2em] text-zinc-500">
+              Strength
+            </p>
+
+            <h2 className="text-4xl font-semibold tracking-tight">
+              Because strength matters.
+            </h2>
+
+            <p className="mt-6 max-w-xl text-lg leading-8 text-zinc-400">
+              Log your strength now. Watch your strength grow.
+            </p>
+          </div>
+
+          <DualPhoneMockups
+            first={{ src: "/strength1.png", alt: "MEtrcs Strength Training" }}
+            second={{ src: "/strength2.png", alt: "MEtrcs Exercise Detail" }}
+          />
+        </div>
+      </section>
+
       {/* NUTRITION & HYDRATION */}
       <section className="px-6 py-24">
         <div className="mx-auto grid max-w-6xl items-center gap-16 lg:grid-cols-2">
