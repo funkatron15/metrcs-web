@@ -68,7 +68,7 @@ export default function Home() {
             </p>
 
             <h2 className="text-4xl font-semibold tracking-tight">
-              Minimum necessary dose of everything.
+              Minimum necessary dose.
             </h2>
 
             <p className="mt-6 text-lg leading-8 text-zinc-400">
@@ -208,7 +208,7 @@ export default function Home() {
       </h2>
 
       <p className="mt-6 max-w-xl text-lg leading-8 text-zinc-400">
-        Endurance is not about average values.
+        Endurance is not just averages.
       </p>
     </div>
 
@@ -232,7 +232,7 @@ export default function Home() {
             </h2>
 
             <p className="mt-6 max-w-xl text-lg leading-8 text-zinc-400">
-              Log your strength now. Watch your strength grow.
+              Log your strength now. Track your strength over time.
             </p>
           </div>
 
