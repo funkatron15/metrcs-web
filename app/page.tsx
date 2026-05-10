@@ -238,8 +238,7 @@ export default function Home() {
 
           <DualPhoneMockups
             first={{ src: "/strength1.png", alt: "MEtrcs Strength Training" }}
-            second={{ src: "/strength2-v2
-.png", alt: "MEtrcs Exercise Detail" }}
+            second={{ src: "/strength2-v2.png", alt: "MEtrcs Exercise Detail" }}
           />
         </div>
       </section>
