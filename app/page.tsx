@@ -286,7 +286,7 @@ export default function Home() {
 
     <DualPhoneMockups
       first={{ src: "/gear1.png", alt: "MEtrcs Gear List" }}
-      second={{ src: "/gear2.png", alt: "MEtrcs Gear Comparison" }}
+      second={{ src: "/gear2-v2.png", alt: "MEtrcs Gear Comparison" }}
     />
   </div>
 </section>
