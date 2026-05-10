@@ -76,7 +76,7 @@ export default function Home() {
             </p>
           </div>
 
-          <PhoneMockup src="/dashboard.png" alt="MEtrcs Dashboard" />
+          <PhoneMockup src="/dashboard-v2.png" alt="MEtrcs Dashboard" />
         </div>
       </section>
 
@@ -84,7 +84,7 @@ export default function Home() {
       <section className="px-6 py-20">
         <div className="mx-auto grid max-w-6xl items-center gap-16 lg:grid-cols-2">
           <div className="order-2 lg:order-1">
-            <PhoneMockup src="/dayflow.png" alt="MEtrcs DayFlow" />
+            <PhoneMockup src="/dayflow-v2.png" alt="MEtrcs DayFlow" />
           </div>
 
           <div className="order-1 lg:order-2">
@@ -120,7 +120,7 @@ export default function Home() {
             </p>
           </div>
 
-          <PhoneMockup src="/routelab.png" alt="MEtrcs Route Lab" />
+          <PhoneMockup src="/routelab-v2.png" alt="MEtrcs Route Lab" />
         </div>
       </section>
 
@@ -128,7 +128,7 @@ export default function Home() {
       <section className="px-6 py-20">
         <div className="mx-auto grid max-w-6xl items-center gap-16 lg:grid-cols-2">
           <div className="order-2 lg:order-1">
-            <PhoneMockup src="/goalhub.png" alt="MEtrcs Goal Hub" />
+            <PhoneMockup src="/goalhub-v2.png" alt="MEtrcs Goal Hub" />
           </div>
 
           <div className="order-1 lg:order-2">
@@ -166,7 +166,7 @@ export default function Home() {
 
           <DualPhoneMockups
             first={{ src: "/planner1.png", alt: "MEtrcs Planner Setup" }}
-            second={{ src: "/planner2-v3.png", alt: "MEtrcs Workout Detail" }}
+            second={{ src: "/planner2-v4.png", alt: "MEtrcs Workout Detail" }}
           />
         </div>
       </section>
@@ -238,7 +238,8 @@ export default function Home() {
 
           <DualPhoneMockups
             first={{ src: "/strength1.png", alt: "MEtrcs Strength Training" }}
-            second={{ src: "/strength2.png", alt: "MEtrcs Exercise Detail" }}
+            second={{ src: "/strength2-v2
+.png", alt: "MEtrcs Exercise Detail" }}
           />
         </div>
       </section>
@@ -261,8 +262,8 @@ export default function Home() {
           </div>
 
           <DualPhoneMockups
-            first={{ src: "/nutri.png", alt: "MEtrcs Nutrition Tracking" }}
-            second={{ src: "/hydra-v2.png", alt: "MEtrcs Hydration Tracking" }}
+            first={{ src: "/nutri-v2.png", alt: "MEtrcs Nutrition Tracking" }}
+            second={{ src: "/hydra-v3.png", alt: "MEtrcs Hydration Tracking" }}
           />
         </div>
       </section>
