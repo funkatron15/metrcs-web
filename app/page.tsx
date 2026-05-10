@@ -267,6 +267,30 @@ export default function Home() {
         </div>
       </section>
 
+      {/* GEAR */}
+<section className="px-6 py-24">
+  <div className="mx-auto grid max-w-6xl items-center gap-16 lg:grid-cols-2">
+    <div>
+      <p className="mb-4 text-sm uppercase tracking-[0.2em] text-zinc-500">
+        Gear
+      </p>
+
+      <h2 className="text-4xl font-semibold tracking-tight">
+        We love details.
+      </h2>
+
+      <p className="mt-6 max-w-xl text-lg leading-8 text-zinc-400">
+        Details complete the context.
+      </p>
+    </div>
+
+    <DualPhoneMockups
+      first={{ src: "/gear1.png", alt: "MEtrcs Gear List" }}
+      second={{ src: "/gear2.png", alt: "MEtrcs Gear Comparison" }}
+    />
+  </div>
+</section>
+
       {/* FOOTER */}
       <footer className="border-t border-white/10 px-6 py-12">
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 text-sm text-zinc-500 sm:flex-row">
