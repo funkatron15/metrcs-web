@@ -23,20 +23,19 @@ function DualPhoneMockups({
   second: { src: string; alt: string };
 }) {
   return (
-    <div className="overflow-x-auto pb-6 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-      <div className="flex w-max gap-5 pr-20 lg:pr-0">
-        <div className="w-[72vw] max-w-[300px] shrink-0 lg:w-[270px]">
+    <div className="w-full overflow-x-auto pb-6 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+      <div className="mx-auto flex w-max max-w-full justify-center gap-5 pr-20 lg:w-full lg:pr-0">
+        <div className="w-[72vw] max-w-[330px] shrink-0 lg:w-[300px]">
           <PhoneMockup src={first.src} alt={first.alt} />
         </div>
 
-        <div className="w-[72vw] max-w-[300px] shrink-0 lg:w-[270px]">
+        <div className="w-[72vw] max-w-[330px] shrink-0 lg:w-[300px]">
           <PhoneMockup src={second.src} alt={second.alt} />
         </div>
       </div>
     </div>
   );
 }
-
 export default function Home() {
   return (
     <main className="min-h-[82vh] overflow-hidden bg-black text-white">
