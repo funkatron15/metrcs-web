@@ -38,7 +38,7 @@ function DualPhoneMockups({
 }
 export default function Home() {
   return (
-    <main className="min-h-[82vh] overflow-hidden bg-black text-white">
+    <main className="min-h-[82vh] overflow-x-hidden bg-black text-white">
       {/* HERO */}
       <section className="relative flex min-h-screen flex-col items-center justify-center px-6 text-center">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.08),transparent_55%)]" />
