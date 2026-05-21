@@ -6,7 +6,7 @@ function PhoneMockup({
   alt: string;
 }) {
   return (
-    <div className="mx-auto w-full max-w-[360px] rounded-[52px] border border-white/15 bg-zinc-950 p-3 shadow-2xl shadow-black/70">
+    <div className="mx-auto w-full max-w-[330px] rounded-[52px] border border-white/15 bg-zinc-950 p-3 shadow-2xl shadow-black/70">
       <div className="relative overflow-hidden rounded-[42px] border border-white/10 bg-black">
         <div className="absolute left-1/2 top-3 z-10 h-5 w-24 -translate-x-1/2 rounded-full bg-black/90" />
         <img src={src} alt={alt} className="block w-full rounded-[38px] object-cover" />
@@ -25,11 +25,11 @@ function DualPhoneMockups({
   return (
     <div className="overflow-x-auto pb-6 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
       <div className="flex w-max gap-5 pr-20 lg:pr-0">
-        <div className="w-[72vw] max-w-[280px] shrink-0 lg:w-[240px]">
+        <div className="w-[72vw] max-w-[300px] shrink-0 lg:w-[270px]">
           <PhoneMockup src={first.src} alt={first.alt} />
         </div>
 
-        <div className="w-[72vw] max-w-[280px] shrink-0 lg:w-[240px]">
+        <div className="w-[72vw] max-w-[300px] shrink-0 lg:w-[270px]">
           <PhoneMockup src={second.src} alt={second.alt} />
         </div>
       </div>
