@@ -292,11 +292,39 @@ export default function Home() {
 
       {/* FOOTER */}
       <footer className="border-t border-white/10 px-6 py-12">
-        <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 text-sm text-zinc-500 sm:flex-row">
-          <p>© 2026 MEtrcs</p>
-          <p>The operating system for human performance.</p>
-        </div>
-      </footer>
+  <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 text-sm text-zinc-500 sm:flex-row">
+    
+    <div>
+      <p>© 2026 MEtrcs</p>
+      <p className="mt-1 text-xs text-zinc-600">
+        MEtrcs is not a medical application and does not provide medical advice.
+      </p>
+    </div>
+
+    <div className="flex items-center gap-6">
+      <a
+        href="/privacy"
+        className="transition-colors hover:text-white"
+      >
+        Privacy
+      </a>
+
+      <a
+        href="/terms"
+        className="transition-colors hover:text-white"
+      >
+        Terms
+      </a>
+
+      <a
+        href="mailto:martin@metrcs.org"
+        className="transition-colors hover:text-white"
+      >
+        Contact
+      </a>
+    </div>
+  </div>
+</footer>
     </main>
   );
 }
