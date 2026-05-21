@@ -188,8 +188,8 @@ export default function Home() {
           </div>
 
           <DualPhoneMockups
-            first={{ src: "/comp1-v2.png", alt: "MEtrcs Month Comparator" }}
-            second={{ src: "/comp2.png", alt: "MEtrcs Workout Comparator" }}
+            first={{ src: "/comp1-v3.png", alt: "MEtrcs Month Comparator" }}
+            second={{ src: "/comp2-v2.png", alt: "MEtrcs Workout Comparator" }}
           />
         </div>
       </section>
@@ -285,7 +285,7 @@ export default function Home() {
 
     <DualPhoneMockups
       first={{ src: "/gear1.png", alt: "MEtrcs Gear List" }}
-      second={{ src: "/gear2-v2.png", alt: "MEtrcs Gear Comparison" }}
+      second={{ src: "/gear2-v3.png", alt: "MEtrcs Gear Comparison" }}
     />
   </div>
 </section>
