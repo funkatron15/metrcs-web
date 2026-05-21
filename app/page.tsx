@@ -324,7 +324,7 @@ export default function Home() {
     </div>
 
     <IPadMockup
-      src="/ipad-comp.png"
+      src="/ipad-comp-v2.png"
       alt="MEtrcs iPad comparison"
     />
   </div>
