@@ -36,6 +36,21 @@ function DualPhoneMockups({
     </div>
   );
 }
+function IPadMockup({
+  src,
+  alt,
+}: {
+  src: string;
+  alt: string;
+}) {
+  return (
+    <div className="mx-auto w-full max-w-[820px] rounded-[42px] border border-white/15 bg-zinc-950 p-3 shadow-2xl shadow-black/70">
+      <div className="overflow-hidden rounded-[32px] border border-white/10 bg-black">
+        <img src={src} alt={alt} className="block w-full object-cover" />
+      </div>
+    </div>
+  );
+}
 export default function Home() {
   return (
     <main className="min-h-[82vh] overflow-hidden bg-black text-white">
@@ -286,6 +301,31 @@ export default function Home() {
     <DualPhoneMockups
       first={{ src: "/gear1.png", alt: "MEtrcs Gear List" }}
       second={{ src: "/gear2-v3.png", alt: "MEtrcs Gear Comparison" }}
+    />
+  </div>
+</section>
+   {/* IPAD */}
+<section className="px-6 py-28">
+  <div className="mx-auto grid max-w-7xl items-center gap-20 lg:grid-cols-[minmax(0,1fr)_900px]">
+    
+    <div>
+      <p className="mb-4 text-sm uppercase tracking-[0.2em] text-zinc-500">
+        iPad experience
+      </p>
+
+      <h2 className="text-5xl font-semibold tracking-tight">
+        More comfort when analysing.
+      </h2>
+
+      <p className="mt-6 max-w-xl text-lg leading-8 text-zinc-400">
+        MEtrcs is iPad compatible for better effectivity, larger overviews and
+        side-by-side comparisons.
+      </p>
+    </div>
+
+    <iPadMockup
+      src="/ipad-comp.png"
+      alt="MEtrcs iPad comparison"
     />
   </div>
 </section>
