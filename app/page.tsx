@@ -172,7 +172,7 @@ export default function Home() {
 
       {/* COMPARATORS */}
       <section className="px-6 py-24">
-        <div className="mx-auto grid max-w-6xl items-center gap-16 lg:grid-cols-2">
+        <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_640px]">
           <div>
             <p className="mb-4 text-sm uppercase tracking-[0.2em] text-zinc-500">
               Comparators
@@ -196,7 +196,7 @@ export default function Home() {
 
       {/* ENDURANCE */}
 <section className="px-6 py-24">
-  <div className="mx-auto grid max-w-6xl items-center gap-16 lg:grid-cols-2">
+  <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_640px]">
     <div>
       <p className="mb-4 text-sm uppercase tracking-[0.2em] text-zinc-500">
         Endurance
@@ -220,7 +220,7 @@ export default function Home() {
 
       {/* STRENGTH */}
       <section className="px-6 py-24">
-        <div className="mx-auto grid max-w-6xl items-center gap-16 lg:grid-cols-2">
+        <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_640px]">
           <div>
             <p className="mb-4 text-sm uppercase tracking-[0.2em] text-zinc-500">
               Strength
@@ -244,7 +244,7 @@ export default function Home() {
 
       {/* NUTRITION & HYDRATION */}
       <section className="px-6 py-24">
-        <div className="mx-auto grid max-w-6xl items-center gap-16 lg:grid-cols-2">
+        <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_640px]">
           <div>
             <p className="mb-4 text-sm uppercase tracking-[0.2em] text-zinc-500">
               Nutrition & Hydration
@@ -268,7 +268,7 @@ export default function Home() {
 
       {/* GEAR */}
 <section className="px-6 py-24">
-  <div className="mx-auto grid max-w-6xl items-center gap-16 lg:grid-cols-2">
+  <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_640px]">
     <div>
       <p className="mb-4 text-sm uppercase tracking-[0.2em] text-zinc-500">
         Gear
