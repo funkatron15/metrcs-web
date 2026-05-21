@@ -82,7 +82,7 @@ export default function PrivacyPage() {
                 href="mailto:martin@metrcs.org"
                 className="text-white underline underline-offset-4"
               >
-                hello@metrcs.app
+                martin@metrcs.org
               </a>
             </p>
           </section>
