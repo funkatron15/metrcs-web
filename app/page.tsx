@@ -38,7 +38,7 @@ function DualPhoneMockups({
 }
 export default function Home() {
   return (
-    <main className="min-h-[82vh] overflow-x-hidden bg-black text-white">
+    <main className="min-h-[82vh] overflow-hidden bg-black text-white">
       {/* HERO */}
       <section className="relative flex min-h-screen flex-col items-center justify-center px-6 text-center">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.08),transparent_55%)]" />
@@ -148,7 +148,7 @@ export default function Home() {
 
       {/* PLANNER */}
       <section className="px-6 py-24">
-        <div className="mx-auto grid max-w-6xl items-center gap-16 lg:grid-cols-2">
+        <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_640px]">
           <div>
             <p className="mb-4 text-sm uppercase tracking-[0.2em] text-zinc-500">
               Planner
