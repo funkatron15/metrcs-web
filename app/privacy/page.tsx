@@ -79,7 +79,7 @@ export default function PrivacyPage() {
             <p className="leading-8">
               For privacy related questions contact{" "}
               <a
-                href="mailto:hello@metrcs.app"
+                href="mailto:martin@metrcs.org"
                 className="text-white underline underline-offset-4"
               >
                 hello@metrcs.app

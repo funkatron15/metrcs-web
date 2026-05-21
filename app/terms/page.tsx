@@ -76,7 +76,7 @@ export default function TermsPage() {
             <p className="leading-8">
               Questions regarding these terms can be sent to{" "}
               <a
-                href="mailto:hello@metrcs.app"
+                href="mailto:martin@metrcs.org"
                 className="text-white underline underline-offset-4"
               >
                 hello@metrcs.app
