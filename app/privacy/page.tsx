@@ -10,7 +10,12 @@ export default function PrivacyPage() {
           Privacy Policy
         </h1>
 
+        <p className="mt-4 text-sm text-zinc-500">
+          Last updated: May 2026
+        </p>
+
         <div className="mt-12 space-y-10 text-zinc-400">
+
           <section>
             <h2 className="mb-3 text-xl font-semibold text-white">
               Local-first by design
@@ -42,20 +47,43 @@ export default function PrivacyPage() {
 
             <p className="leading-8">
               MEtrcs may read and write selected Apple Health data only with your
-              explicit permission. You can revoke access at any time in Apple
-              Health settings.
+              explicit permission. Health data is never accessed without your
+              consent.
+            </p>
+
+            <p className="mt-4 leading-8">
+              You can revoke Apple Health access at any time in the Apple Health
+              app settings.
             </p>
           </section>
 
           <section>
             <h2 className="mb-3 text-xl font-semibold text-white">
-              Data sharing
+              Data usage
             </h2>
 
             <p className="leading-8">
-              MEtrcs does not sell your data to third parties. If you use export,
-              backup or future sharing features, you are responsible for how and
-              where exported files are stored or shared.
+              Your data is used only to provide app functionality, analytics,
+              comparisons, planning and recovery related features inside MEtrcs.
+            </p>
+
+            <p className="mt-4 leading-8">
+              MEtrcs does not sell your personal or health data to third parties.
+            </p>
+
+            <p className="mt-4 leading-8">
+              MEtrcs does not use your health data for advertising purposes.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="mb-3 text-xl font-semibold text-white">
+              Exports and backups
+            </h2>
+
+            <p className="leading-8">
+              If you use export, backup or future sharing features, you are
+              responsible for how and where exported files are stored or shared.
             </p>
           </section>
 
@@ -65,9 +93,25 @@ export default function PrivacyPage() {
             </h2>
 
             <p className="leading-8">
-              Future versions of MEtrcs may include optional sync or online
-              services. If data processing changes significantly, this policy will
-              be updated.
+              Future versions of MEtrcs may include optional cloud sync or online
+              services.
+            </p>
+
+            <p className="mt-4 leading-8">
+              If data processing changes significantly, this privacy policy will
+              be updated accordingly.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="mb-3 text-xl font-semibold text-white">
+              Your control
+            </h2>
+
+            <p className="leading-8">
+              You control which permissions you grant to MEtrcs. Most features
+              can be limited or disabled by revoking permissions in iOS settings
+              or Apple Health settings.
             </p>
           </section>
 
@@ -86,6 +130,7 @@ export default function PrivacyPage() {
               </a>
             </p>
           </section>
+
         </div>
       </div>
     </main>
