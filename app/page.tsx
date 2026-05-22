@@ -24,12 +24,12 @@ function DualPhoneMockups({
 }) {
   return (
     <div className="w-full overflow-x-auto pb-6 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-      <div className="mx-auto flex w-max max-w-full justify-center gap-5 pr-20 lg:w-full lg:pr-0">
-        <div className="w-[72vw] max-w-[330px] shrink-0 lg:w-[300px]">
+      <div className="flex w-max gap-5 pr-6 lg:w-full lg:justify-center lg:pr-0">
+        <div className="w-[78vw] max-w-[330px] shrink-0 lg:w-[300px]">
           <PhoneMockup src={first.src} alt={first.alt} />
         </div>
 
-        <div className="w-[72vw] max-w-[330px] shrink-0 lg:w-[300px]">
+        <div className="w-[78vw] max-w-[330px] shrink-0 lg:w-[300px]">
           <PhoneMockup src={second.src} alt={second.alt} />
         </div>
       </div>
@@ -314,17 +314,17 @@ export default function Home() {
       </p>
 
       <h2 className="text-5xl font-semibold tracking-tight">
-        More comfort when analysing.
+        More comfort when exploring.
       </h2>
 
       <p className="mt-6 max-w-xl text-lg leading-8 text-zinc-400">
-        MEtrcs is iPad compatible for better effectivity, larger overviews and
+        Sync your iPad and enjoy larger overviews and
         side-by-side comparisons.
       </p>
     </div>
 
     <IPadMockup
-      src="/ipad-comp-v2.png"
+      src="/ipad-comp-v3.png"
       alt="MEtrcs iPad comparison"
     />
   </div>
