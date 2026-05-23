@@ -9,7 +9,11 @@ function PhoneMockup({
     <div className="mx-auto w-full max-w-[330px] rounded-[52px] border border-white/15 bg-zinc-950 p-3 shadow-2xl shadow-black/70">
       <div className="relative overflow-hidden rounded-[42px] border border-white/10 bg-black">
         <div className="absolute left-1/2 top-3 z-10 h-5 w-24 -translate-x-1/2 rounded-full bg-black/90" />
-        <img src={src} alt={alt} className="block w-full rounded-[38px] object-cover" />
+        <img
+          src={src}
+          alt={alt}
+          className="block w-full rounded-[38px] object-cover"
+        />
       </div>
     </div>
   );
@@ -65,19 +69,21 @@ function FeatureText({
   large?: boolean;
 }) {
   return (
-    <div className="flex h-full items-center justify-center">
-      <div className="w-full max-w-xl">
+    <div className="flex w-full items-center justify-center text-left">
+      <div className="w-full max-w-[460px]">
         <p className="mb-4 text-sm uppercase tracking-[0.2em] text-zinc-500">
           {eyebrow}
         </p>
 
-        <h2 className={`${large ? "text-5xl" : "text-4xl"} font-semibold tracking-tight`}>
+        <h2
+          className={`${
+            large ? "text-5xl" : "text-4xl"
+          } font-semibold tracking-tight`}
+        >
           {title}
         </h2>
 
-        <p className="mt-6 text-lg leading-8 text-zinc-400">
-          {body}
-        </p>
+        <p className="mt-6 text-lg leading-8 text-zinc-400">{body}</p>
       </div>
     </div>
   );
@@ -100,27 +106,31 @@ export default function Home() {
           </h1>
 
           <p className="mx-auto mt-8 max-w-2xl text-lg leading-8 text-zinc-400 sm:text-xl">
-            Designed with the precision of a pro tool and the respect for athlete intelligence.
+            Designed with the precision of a pro tool and the respect for
+            athlete intelligence.
           </p>
         </div>
       </section>
 
       {/* DASHBOARD */}
       <section className="px-6 py-20">
-        <div className="mx-auto grid max-w-6xl items-center gap-16 lg:grid-cols-2">
+        <div className="mx-auto grid max-w-6xl items-center gap-12 lg:grid-cols-[minmax(0,1fr)_360px]">
           <FeatureText
             eyebrow="Dashboard"
             title="Minimum necessary dose."
             body="Training, recovery, nutrition, hydration on one screen. So that you know."
           />
 
-          <PhoneMockup src="/dashboard-v2.png" alt="MEtrcs Dashboard" />
+          <PhoneMockup
+            src="/dashboard-v2.png"
+            alt="MEtrcs Dashboard"
+          />
         </div>
       </section>
 
       {/* DAYFLOW */}
       <section className="px-6 py-20">
-        <div className="mx-auto grid max-w-6xl items-center gap-16 lg:grid-cols-2">
+        <div className="mx-auto grid max-w-6xl items-center gap-12 lg:grid-cols-[360px_minmax(0,1fr)]">
           <div className="order-2 lg:order-1">
             <PhoneMockup src="/dayflow-v2.png" alt="MEtrcs DayFlow" />
           </div>
@@ -137,7 +147,7 @@ export default function Home() {
 
       {/* ROUTE LAB */}
       <section className="px-6 py-20">
-        <div className="mx-auto grid max-w-6xl items-center gap-16 lg:grid-cols-2">
+        <div className="mx-auto grid max-w-6xl items-center gap-12 lg:grid-cols-[minmax(0,1fr)_360px]">
           <FeatureText
             eyebrow="Route Lab"
             title="Play with your favorite routes."
@@ -150,7 +160,7 @@ export default function Home() {
 
       {/* GOAL HUB */}
       <section className="px-6 py-20">
-        <div className="mx-auto grid max-w-6xl items-center gap-16 lg:grid-cols-2">
+        <div className="mx-auto grid max-w-6xl items-center gap-12 lg:grid-cols-[360px_minmax(0,1fr)]">
           <div className="order-2 lg:order-1">
             <PhoneMockup src="/goalhub-v2.png" alt="MEtrcs Goal Hub" />
           </div>
@@ -167,7 +177,7 @@ export default function Home() {
 
       {/* PLANNER */}
       <section className="px-6 py-24">
-        <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_640px]">
+        <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-[minmax(0,1fr)_640px]">
           <FeatureText
             eyebrow="Planner"
             title="Best plans are those you can stick with."
@@ -175,15 +185,21 @@ export default function Home() {
           />
 
           <DualPhoneMockups
-            first={{ src: "/planner1.png", alt: "MEtrcs Planner Setup" }}
-            second={{ src: "/planner2-v4.png", alt: "MEtrcs Workout Detail" }}
+            first={{
+              src: "/planner1.png",
+              alt: "MEtrcs Planner Setup",
+            }}
+            second={{
+              src: "/planner2-v4.png",
+              alt: "MEtrcs Workout Detail",
+            }}
           />
         </div>
       </section>
 
       {/* COMPARATORS */}
       <section className="px-6 py-24">
-        <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_640px]">
+        <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-[minmax(0,1fr)_640px]">
           <FeatureText
             eyebrow="Comparators"
             title="Performance is never just one workout."
@@ -191,15 +207,21 @@ export default function Home() {
           />
 
           <DualPhoneMockups
-            first={{ src: "/comp1-v3.png", alt: "MEtrcs Month Comparator" }}
-            second={{ src: "/comp2-v2.png", alt: "MEtrcs Workout Comparator" }}
+            first={{
+              src: "/comp1-v3.png",
+              alt: "MEtrcs Month Comparator",
+            }}
+            second={{
+              src: "/comp2-v2.png",
+              alt: "MEtrcs Workout Comparator",
+            }}
           />
         </div>
       </section>
 
       {/* ENDURANCE */}
       <section className="px-6 py-24">
-        <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_640px]">
+        <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-[minmax(0,1fr)_640px]">
           <FeatureText
             eyebrow="Endurance"
             title="Because endurance matters."
@@ -207,15 +229,21 @@ export default function Home() {
           />
 
           <DualPhoneMockups
-            first={{ src: "/endurance1.png", alt: "MEtrcs Endurance Analysis" }}
-            second={{ src: "/endurance2.png", alt: "MEtrcs Heart Rate Analysis" }}
+            first={{
+              src: "/endurance1.png",
+              alt: "MEtrcs Endurance Analysis",
+            }}
+            second={{
+              src: "/endurance2.png",
+              alt: "MEtrcs Heart Rate Analysis",
+            }}
           />
         </div>
       </section>
 
       {/* STRENGTH */}
       <section className="px-6 py-24">
-        <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_640px]">
+        <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-[minmax(0,1fr)_640px]">
           <FeatureText
             eyebrow="Strength"
             title="Because strength matters."
@@ -223,15 +251,21 @@ export default function Home() {
           />
 
           <DualPhoneMockups
-            first={{ src: "/strength1.png", alt: "MEtrcs Strength Training" }}
-            second={{ src: "/strength2-v2.png", alt: "MEtrcs Exercise Detail" }}
+            first={{
+              src: "/strength1.png",
+              alt: "MEtrcs Strength Training",
+            }}
+            second={{
+              src: "/strength2-v2.png",
+              alt: "MEtrcs Exercise Detail",
+            }}
           />
         </div>
       </section>
 
       {/* NUTRITION & HYDRATION */}
       <section className="px-6 py-24">
-        <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_640px]">
+        <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-[minmax(0,1fr)_640px]">
           <FeatureText
             eyebrow="Nutrition & Hydration"
             title="Want to know how many carbs you ate 4 hours before your workout?"
@@ -239,15 +273,21 @@ export default function Home() {
           />
 
           <DualPhoneMockups
-            first={{ src: "/nutri-v2.png", alt: "MEtrcs Nutrition Tracking" }}
-            second={{ src: "/hydra-v3.png", alt: "MEtrcs Hydration Tracking" }}
+            first={{
+              src: "/nutri-v2.png",
+              alt: "MEtrcs Nutrition Tracking",
+            }}
+            second={{
+              src: "/hydra-v3.png",
+              alt: "MEtrcs Hydration Tracking",
+            }}
           />
         </div>
       </section>
 
       {/* GEAR */}
       <section className="px-6 py-24">
-        <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_640px]">
+        <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-[minmax(0,1fr)_640px]">
           <FeatureText
             eyebrow="Gear"
             title="We love details."
@@ -255,15 +295,21 @@ export default function Home() {
           />
 
           <DualPhoneMockups
-            first={{ src: "/gear1.png", alt: "MEtrcs Gear List" }}
-            second={{ src: "/gear2-v3.png", alt: "MEtrcs Gear Comparison" }}
+            first={{
+              src: "/gear1.png",
+              alt: "MEtrcs Gear List",
+            }}
+            second={{
+              src: "/gear2-v3.png",
+              alt: "MEtrcs Gear Comparison",
+            }}
           />
         </div>
       </section>
 
       {/* IPAD */}
       <section className="px-6 py-28">
-        <div className="mx-auto grid max-w-7xl items-center gap-20 lg:grid-cols-[minmax(0,1fr)_900px]">
+        <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_900px]">
           <FeatureText
             eyebrow="iPad experience"
             title="More comfort when exploring."
@@ -271,7 +317,10 @@ export default function Home() {
             large
           />
 
-          <IPadMockup src="/ipad-comp-v4.png" alt="MEtrcs iPad comparison" />
+          <IPadMockup
+            src="/ipad-comp-v4.png"
+            alt="MEtrcs iPad comparison"
+          />
         </div>
       </section>
 
@@ -281,20 +330,30 @@ export default function Home() {
           <div>
             <p>© 2026 MEtrcs</p>
             <p className="mt-1 text-xs text-zinc-600">
-              MEtrcs is not a medical application and does not provide medical advice.
+              MEtrcs is not a medical application and does not provide medical
+              advice.
             </p>
           </div>
 
           <div className="flex items-center gap-6">
-            <a href="/privacy" className="transition-colors hover:text-white">
+            <a
+              href="/privacy"
+              className="transition-colors hover:text-white"
+            >
               Privacy
             </a>
 
-            <a href="/terms" className="transition-colors hover:text-white">
+            <a
+              href="/terms"
+              className="transition-colors hover:text-white"
+            >
               Terms
             </a>
 
-            <a href="mailto:martin@metrcs.org" className="transition-colors hover:text-white">
+            <a
+              href="mailto:martin@metrcs.org"
+              className="transition-colors hover:text-white"
+            >
               Contact
             </a>
           </div>
