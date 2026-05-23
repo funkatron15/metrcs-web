@@ -36,6 +36,7 @@ function DualPhoneMockups({
     </div>
   );
 }
+
 function IPadMockup({
   src,
   alt,
@@ -51,6 +52,7 @@ function IPadMockup({
     </div>
   );
 }
+
 export default function Home() {
   return (
     <main className="min-h-[82vh] overflow-hidden bg-black text-white">
@@ -76,7 +78,7 @@ export default function Home() {
       {/* DASHBOARD */}
       <section className="px-6 py-20">
         <div className="mx-auto grid max-w-6xl items-center gap-16 lg:grid-cols-2">
-          <div>
+          <div className="mx-auto max-w-xl lg:mx-0 xl:mx-auto">
             <p className="mb-4 text-sm uppercase tracking-[0.2em] text-zinc-500">
               Dashboard
             </p>
@@ -101,7 +103,7 @@ export default function Home() {
             <PhoneMockup src="/dayflow-v2.png" alt="MEtrcs DayFlow" />
           </div>
 
-          <div className="order-1 lg:order-2">
+          <div className="order-1 mx-auto max-w-xl lg:order-2 lg:mx-0 xl:mx-auto">
             <p className="mb-4 text-sm uppercase tracking-[0.2em] text-zinc-500">
               DayFlow
             </p>
@@ -120,7 +122,7 @@ export default function Home() {
       {/* ROUTE LAB */}
       <section className="px-6 py-20">
         <div className="mx-auto grid max-w-6xl items-center gap-16 lg:grid-cols-2">
-          <div>
+          <div className="mx-auto max-w-xl lg:mx-0 xl:mx-auto">
             <p className="mb-4 text-sm uppercase tracking-[0.2em] text-zinc-500">
               Route Lab
             </p>
@@ -145,7 +147,7 @@ export default function Home() {
             <PhoneMockup src="/goalhub-v2.png" alt="MEtrcs Goal Hub" />
           </div>
 
-          <div className="order-1 lg:order-2">
+          <div className="order-1 mx-auto max-w-xl lg:order-2 lg:mx-0 xl:mx-auto">
             <p className="mb-4 text-sm uppercase tracking-[0.2em] text-zinc-500">
               Goal Hub
             </p>
@@ -164,7 +166,7 @@ export default function Home() {
       {/* PLANNER */}
       <section className="px-6 py-24">
         <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_640px]">
-          <div>
+          <div className="mx-auto max-w-xl lg:mx-0 xl:mx-auto">
             <p className="mb-4 text-sm uppercase tracking-[0.2em] text-zinc-500">
               Planner
             </p>
@@ -173,7 +175,7 @@ export default function Home() {
               Best plans are those you can stick with.
             </h2>
 
-            <p className="mt-6 max-w-xl text-lg leading-8 text-zinc-400">
+            <p className="mt-6 text-lg leading-8 text-zinc-400">
               Hybrid or single sport training plans built around real life — strength, endurance and recovery in one practical structure.
             </p>
           </div>
@@ -188,7 +190,7 @@ export default function Home() {
       {/* COMPARATORS */}
       <section className="px-6 py-24">
         <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_640px]">
-          <div>
+          <div className="mx-auto max-w-xl lg:mx-0 xl:mx-auto">
             <p className="mb-4 text-sm uppercase tracking-[0.2em] text-zinc-500">
               Comparators
             </p>
@@ -197,7 +199,7 @@ export default function Home() {
               Performance is never just one workout.
             </h2>
 
-            <p className="mt-6 max-w-xl text-lg leading-8 text-zinc-400">
+            <p className="mt-6 text-lg leading-8 text-zinc-400">
               Compare training, recovery and load across time.
             </p>
           </div>
@@ -210,33 +212,33 @@ export default function Home() {
       </section>
 
       {/* ENDURANCE */}
-<section className="px-6 py-24">
-  <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_640px]">
-    <div>
-      <p className="mb-4 text-sm uppercase tracking-[0.2em] text-zinc-500">
-        Endurance
-      </p>
+      <section className="px-6 py-24">
+        <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_640px]">
+          <div className="mx-auto max-w-xl lg:mx-0 xl:mx-auto">
+            <p className="mb-4 text-sm uppercase tracking-[0.2em] text-zinc-500">
+              Endurance
+            </p>
 
-      <h2 className="text-4xl font-semibold tracking-tight">
-        Because endurance matters.
-      </h2>
+            <h2 className="text-4xl font-semibold tracking-tight">
+              Because endurance matters.
+            </h2>
 
-      <p className="mt-6 max-w-xl text-lg leading-8 text-zinc-400">
-        Endurance is not just averages.
-      </p>
-    </div>
+            <p className="mt-6 text-lg leading-8 text-zinc-400">
+              Endurance is not just averages.
+            </p>
+          </div>
 
-    <DualPhoneMockups
-      first={{ src: "/endurance1.png", alt: "MEtrcs Endurance Analysis" }}
-      second={{ src: "/endurance2.png", alt: "MEtrcs Heart Rate Analysis" }}
-    />
-  </div>
-</section>
+          <DualPhoneMockups
+            first={{ src: "/endurance1.png", alt: "MEtrcs Endurance Analysis" }}
+            second={{ src: "/endurance2.png", alt: "MEtrcs Heart Rate Analysis" }}
+          />
+        </div>
+      </section>
 
       {/* STRENGTH */}
       <section className="px-6 py-24">
         <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_640px]">
-          <div>
+          <div className="mx-auto max-w-xl lg:mx-0 xl:mx-auto">
             <p className="mb-4 text-sm uppercase tracking-[0.2em] text-zinc-500">
               Strength
             </p>
@@ -245,7 +247,7 @@ export default function Home() {
               Because strength matters.
             </h2>
 
-            <p className="mt-6 max-w-xl text-lg leading-8 text-zinc-400">
+            <p className="mt-6 text-lg leading-8 text-zinc-400">
               Log your strength now. Track your strength over time.
             </p>
           </div>
@@ -260,7 +262,7 @@ export default function Home() {
       {/* NUTRITION & HYDRATION */}
       <section className="px-6 py-24">
         <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_640px]">
-          <div>
+          <div className="mx-auto max-w-xl lg:mx-0 xl:mx-auto">
             <p className="mb-4 text-sm uppercase tracking-[0.2em] text-zinc-500">
               Nutrition & Hydration
             </p>
@@ -269,7 +271,7 @@ export default function Home() {
               Want to know how many carbs you ate 4 hours before your workout?
             </h2>
 
-            <p className="mt-6 max-w-xl text-lg leading-8 text-zinc-400">
+            <p className="mt-6 text-lg leading-8 text-zinc-400">
               Timestamped nutrition and hydration logs for a full physiological picture.
             </p>
           </div>
@@ -282,89 +284,78 @@ export default function Home() {
       </section>
 
       {/* GEAR */}
-<section className="px-6 py-24">
-  <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_640px]">
-    <div>
-      <p className="mb-4 text-sm uppercase tracking-[0.2em] text-zinc-500">
-        Gear
-      </p>
+      <section className="px-6 py-24">
+        <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_640px]">
+          <div className="mx-auto max-w-xl lg:mx-0 xl:mx-auto">
+            <p className="mb-4 text-sm uppercase tracking-[0.2em] text-zinc-500">
+              Gear
+            </p>
 
-      <h2 className="text-4xl font-semibold tracking-tight">
-        We love details.
-      </h2>
+            <h2 className="text-4xl font-semibold tracking-tight">
+              We love details.
+            </h2>
 
-      <p className="mt-6 max-w-xl text-lg leading-8 text-zinc-400">
-        Details complete the context.
-      </p>
-    </div>
+            <p className="mt-6 text-lg leading-8 text-zinc-400">
+              Details complete the context.
+            </p>
+          </div>
 
-    <DualPhoneMockups
-      first={{ src: "/gear1.png", alt: "MEtrcs Gear List" }}
-      second={{ src: "/gear2-v3.png", alt: "MEtrcs Gear Comparison" }}
-    />
-  </div>
-</section>
-   {/* IPAD */}
-<section className="px-6 py-28">
-  <div className="mx-auto grid max-w-7xl items-center gap-20 lg:grid-cols-[minmax(0,1fr)_900px]">
-    
-    <div>
-      <p className="mb-4 text-sm uppercase tracking-[0.2em] text-zinc-500">
-        iPad experience
-      </p>
+          <DualPhoneMockups
+            first={{ src: "/gear1.png", alt: "MEtrcs Gear List" }}
+            second={{ src: "/gear2-v3.png", alt: "MEtrcs Gear Comparison" }}
+          />
+        </div>
+      </section>
 
-      <h2 className="text-5xl font-semibold tracking-tight">
-        More comfort when exploring.
-      </h2>
+      {/* IPAD */}
+      <section className="px-6 py-28">
+        <div className="mx-auto grid max-w-7xl items-center gap-20 lg:grid-cols-[minmax(0,1fr)_900px]">
+          <div className="mx-auto max-w-xl lg:mx-0 xl:mx-auto">
+            <p className="mb-4 text-sm uppercase tracking-[0.2em] text-zinc-500">
+              iPad experience
+            </p>
 
-      <p className="mt-6 max-w-xl text-lg leading-8 text-zinc-400">
-        Sync your iPad and enjoy larger overviews and
-        side-by-side comparisons.
-      </p>
-    </div>
+            <h2 className="text-5xl font-semibold tracking-tight">
+              More comfort when exploring.
+            </h2>
 
-    <IPadMockup
-      src="/ipad-comp-v4.png"
-      alt="MEtrcs iPad comparison"
-    />
-  </div>
-</section>
+            <p className="mt-6 text-lg leading-8 text-zinc-400">
+              Sync your iPad and enjoy larger overviews and side-by-side comparisons.
+            </p>
+          </div>
+
+          <IPadMockup
+            src="/ipad-comp-v4.png"
+            alt="MEtrcs iPad comparison"
+          />
+        </div>
+      </section>
 
       {/* FOOTER */}
       <footer className="border-t border-white/10 px-6 py-12">
-  <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 text-sm text-zinc-500 sm:flex-row">
-    
-    <div>
-      <p>© 2026 MEtrcs</p>
-      <p className="mt-1 text-xs text-zinc-600">
-        MEtrcs is not a medical application and does not provide medical advice.
-      </p>
-    </div>
+        <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 text-sm text-zinc-500 sm:flex-row">
+          <div>
+            <p>© 2026 MEtrcs</p>
+            <p className="mt-1 text-xs text-zinc-600">
+              MEtrcs is not a medical application and does not provide medical advice.
+            </p>
+          </div>
 
-    <div className="flex items-center gap-6">
-      <a
-        href="/privacy"
-        className="transition-colors hover:text-white"
-      >
-        Privacy
-      </a>
+          <div className="flex items-center gap-6">
+            <a href="/privacy" className="transition-colors hover:text-white">
+              Privacy
+            </a>
 
-      <a
-        href="/terms"
-        className="transition-colors hover:text-white"
-      >
-        Terms
-      </a>
+            <a href="/terms" className="transition-colors hover:text-white">
+              Terms
+            </a>
 
-      <a
-        href="mailto:martin@metrcs.org"
-        className="transition-colors hover:text-white"
-      >
-        Contact
-      </a>
-    </div>
-  </div>
-</footer>
+            <a href="mailto:martin@metrcs.org" className="transition-colors hover:text-white">
+              Contact
+            </a>
+          </div>
+        </div>
+      </footer>
     </main>
   );
 }
