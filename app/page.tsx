@@ -267,7 +267,7 @@ export default function Home() {
           <FeatureText
             eyebrow="Coach Hub"
             title="Everything your athlete sees — you see too."
-            body="Training, recovery, nutrition, hydration and performance data. One athlete. One complete picture."
+            body="No need to interview your clients. They log, you analyze. Save your time. Save theirs."
           />
 
           <DualPhoneMockups
