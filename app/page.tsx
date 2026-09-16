@@ -261,6 +261,22 @@ export default function Home() {
         </div>
       </section>
 
+      {/* COACH HUB */}
+      <section className="px-6 py-24">
+        <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_640px]">
+          <FeatureText
+            eyebrow="Coach Hub"
+            title="Everything your athlete sees — you see too."
+            body="Training, recovery, nutrition, hydration and performance data. One athlete. One complete picture."
+          />
+
+          <DualPhoneMockups
+            first={{ src: "/clienthub1.png", alt: "MEtrcs Coach Hub Client List" }}
+            second={{ src: "/clienthub2.png", alt: "MEtrcs Coach View Load and Performance Trends" }}
+          />
+        </div>
+      </section>
+
       {/* IPAD */}
       <section className="px-6 py-28">
         <div className="mx-auto grid max-w-7xl items-center gap-20 lg:grid-cols-[minmax(0,1fr)_820px]">
