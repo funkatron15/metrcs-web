@@ -105,18 +105,20 @@ export default function Home() {
         </div>
       </section>
 
-      {/* DASHBOARD */}
-      <section className="px-6 py-20">
-        <div className="mx-auto grid max-w-6xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_330px]">
-          <FeatureText
-            eyebrow="Dashboard"
-            title="Minimum necessary dose."
-            body="Training, recovery, nutrition, hydration on one screen. So that you know."
-          />
+            {/* DASHBOARD */}
+      <a href="/dashboard" className="block">
+        <section className="px-6 py-20">
+          <div className="mx-auto grid max-w-6xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_330px]">
+            <FeatureText
+              eyebrow="Dashboard"
+              title="Minimum necessary dose."
+              body="Training, recovery, nutrition, hydration on one screen. So that you know."
+            />
 
-          <PhoneMockup src="/dashboard-v2.png" alt="MEtrcs Dashboard" />
-        </div>
-      </section>
+            <PhoneMockup src="/dashboard-v2.png" alt="MEtrcs Dashboard" />
+          </div>
+        </section>
+      </a>
 
       {/* DAYFLOW */}
       <section className="px-6 py-20">
@@ -261,11 +263,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* COACH HUB */}
+      {/* CLIENT HUB */}
       <section className="px-6 py-24">
         <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_640px]">
           <FeatureText
-            eyebrow="Coach Hub"
+            eyebrow="Client Hub"
             title="Everything your athlete sees — you see too."
             body="No need to interview your clients. They log, you analyze. Save your time. Save theirs."
           />
