@@ -52,9 +52,9 @@ function DualPhoneMockups() {
 
 function YouTubeDemo() {
   return (
-    <div className="mx-auto w-[78vw] max-w-[360px] lg:w-[340px]">
+    <div className="mx-auto w-[280px] sm:w-[290px]">
       <div className="w-full rounded-[52px] border border-white/15 bg-zinc-950 p-3 shadow-2xl shadow-black/70">
-        <div className="relative aspect-[9/16] overflow-hidden rounded-[42px] border border-white/10 bg-black">
+        <div className="relative aspect-[9/19.5] overflow-hidden rounded-[42px] border border-white/10 bg-black">
           <iframe
             src="https://www.youtube.com/embed/C4byFUR4IdU"
             title="MEtrcs Dashboard time navigation demo"
