@@ -52,15 +52,17 @@ function DualPhoneMockups() {
 
 function YouTubeDemo() {
   return (
-    <div className="mx-auto w-full max-w-[360px] rounded-[42px] border border-white/15 bg-zinc-950 p-3 shadow-2xl shadow-black/70">
-      <div className="relative aspect-[9/16] overflow-hidden rounded-[32px] border border-white/10 bg-black">
-        <iframe
-          src="https://www.youtube.com/embed/C4byFUR4IdU"
-          title="MEtrcs Dashboard time navigation demo"
-          className="absolute inset-0 h-full w-full"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowFullScreen
-        />
+    <div className="mx-auto w-[78vw] max-w-[330px] lg:w-[300px]">
+      <div className="w-full rounded-[52px] border border-white/15 bg-zinc-950 p-3 shadow-2xl shadow-black/70">
+        <div className="relative aspect-[9/16] overflow-hidden rounded-[42px] border border-white/10 bg-black">
+          <iframe
+            src="https://www.youtube.com/embed/C4byFUR4IdU"
+            title="MEtrcs Dashboard time navigation demo"
+            className="absolute inset-0 h-full w-full"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowFullScreen
+          />
+        </div>
       </div>
     </div>
   );
