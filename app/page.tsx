@@ -120,22 +120,24 @@ export default function Home() {
         </section>
       </a>
 
-      {/* DAYFLOW */}
-      <section className="px-6 py-20">
-        <div className="mx-auto grid max-w-6xl items-center gap-16 lg:grid-cols-[330px_minmax(0,1fr)]">
-          <div className="order-2 lg:order-1">
-            <PhoneMockup src="/dayflow-v2.png" alt="MEtrcs DayFlow" />
-          </div>
+            {/* DAYFLOW */}
+      <a href="/dayflow" className="block">
+        <section className="px-6 py-20">
+          <div className="mx-auto grid max-w-6xl items-center gap-16 lg:grid-cols-[330px_minmax(0,1fr)]">
+            <div className="order-2 lg:order-1">
+              <PhoneMockup src="/dayflow-v2.png" alt="MEtrcs DayFlow" />
+            </div>
 
-          <div className="order-1 lg:order-2">
-            <FeatureText
-              eyebrow="DayFlow"
-              title="Your entire day. On one timeline."
-              body="Sleep, workouts, meals, hydration, HRV and weightlog — connected in one chronological flow."
-            />
+            <div className="order-1 lg:order-2">
+              <FeatureText
+                eyebrow="DayFlow"
+                title="Your entire day. On one timeline."
+                body="Sleep, workouts, meals, hydration, HRV and weightlog — connected in one chronological flow."
+              />
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </a>
 
       {/* ROUTE LAB */}
       <section className="px-6 py-20">

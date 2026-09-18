@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "MEtrcs Dashboard | Your AthleteOS Command Centre",
+  title: "MEtrcs DayFlow | Your Entire Day on One Timeline",
   description:
-    "Explore training, recovery, nutrition, hydration, body metrics and daily logs together. MEtrcs Dashboard lets athletes and coaches navigate complete athlete days across history.",
+    "Explore sleep, HRV, body weight, meals, hydration, caffeine and training on one continuous timeline. DayFlow brings the context of your entire athlete day together.",
 };
 
 function PhoneMockup({
@@ -34,15 +34,15 @@ function DualPhoneMockups() {
       <div className="flex w-max gap-5 pr-6 lg:w-full lg:justify-center lg:pr-0">
         <div className="w-[78vw] max-w-[330px] shrink-0 lg:w-[300px]">
           <PhoneMockup
-            src="/dashboard-day1.png"
-            alt="MEtrcs Dashboard showing a complete athlete day with training, recovery, nutrition, hydration, body metrics and daily logs"
+            src="/dayflow-day1.png"
+            alt="MEtrcs DayFlow showing sleep, HRV, meals, hydration, body weight and training on one chronological timeline"
           />
         </div>
 
         <div className="w-[78vw] max-w-[330px] shrink-0 lg:w-[300px]">
           <PhoneMockup
-            src="/dashboard-day2.png"
-            alt="MEtrcs Dashboard showing historical athlete data from another day"
+            src="/dayflow-day2.png"
+            alt="MEtrcs DayFlow showing another athlete day and its complete chronological context"
           />
         </div>
       </div>
@@ -56,8 +56,8 @@ function YouTubeDemo() {
       <div className="w-full rounded-[52px] border border-white/15 bg-zinc-950 p-3 shadow-2xl shadow-black/70">
         <div className="relative aspect-[9/19.5] overflow-hidden rounded-[42px] border border-white/10 bg-black">
           <iframe
-            src="https://www.youtube.com/embed/C4byFUR4IdU"
-            title="MEtrcs Dashboard time navigation demo"
+            src="https://www.youtube.com/embed/C8F5dZG6mic"
+            title="MEtrcs DayFlow timeline demo"
             className="absolute inset-0 h-full w-full"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
@@ -68,7 +68,7 @@ function YouTubeDemo() {
   );
 }
 
-export default function DashboardPage() {
+export default function DayFlowPage() {
   return (
     <main className="min-h-screen overflow-hidden bg-black text-white">
 
@@ -89,49 +89,52 @@ export default function DashboardPage() {
 
         <div className="relative z-10 mx-auto max-w-5xl">
           <p className="mb-6 text-sm uppercase tracking-[0.25em] text-zinc-500">
-            Dashboard
+            DayFlow
           </p>
 
           <h1 className="text-5xl font-semibold tracking-tight sm:text-7xl">
-  Your AthleteOS
-  <br />
-  command centre.
-</h1>
+            Your whole day,
+            <br />
+            in the order it happened.
+          </h1>
 
           <p className="mx-auto mt-8 max-w-2xl text-lg leading-8 text-zinc-400 sm:text-xl">
-            Training, recovery, nutrition, hydration, body metrics and daily
-            logs — together in one navigable view.
+            Sleep, HRV, body weight, meals, hydration, caffeine and training —
+            placed on one continuous timeline.
           </p>
         </div>
       </section>
 
-      {/* COMPLETE ATHLETE DAY */}
+      {/* WHOLE DAY */}
       <section className="px-6 py-24">
         <div className="mx-auto grid max-w-7xl items-center gap-20 lg:grid-cols-[minmax(0,1fr)_640px]">
 
           <div className="mx-auto w-full max-w-xl">
             <p className="mb-4 text-sm uppercase tracking-[0.2em] text-zinc-500">
-              Complete athlete context
+              Your day in context
             </p>
 
             <h2 className="text-4xl font-semibold tracking-tight sm:text-5xl">
-              Go back to any day.
+              See what happened
               <br />
-              See it as if it were today.
+              around your training.
             </h2>
 
             <div className="mt-8 space-y-6 text-lg leading-8 text-zinc-400">
               <p>
-                MEtrcs Dashboard is the control center for the entire athlete
-                day.
+                See what happened before your session, during it and after it.
+                Move back through your days and see the context, not just the
+                totals.
               </p>
 
-              
-                It isn&apos;t a collection of today&apos;s metrics. It&apos;s
-                a navigable history of complete athlete days.
-              
+              <p>
+                See whether you drink regularly throughout the day. Spot long
+                gaps between meals, or a big meal window before training.
+              </p>
 
-              
+              <p>
+                See how your HRV responds as your day unfolds.
+              </p>
             </div>
           </div>
 
@@ -139,7 +142,7 @@ export default function DashboardPage() {
         </div>
       </section>
 
-      {/* TIME NAVIGATION */}
+      {/* AUTOMATIC TIMELINE */}
       <section className="px-6 py-28">
         <div className="mx-auto grid max-w-7xl items-center gap-20 lg:grid-cols-[420px_minmax(0,1fr)]">
 
@@ -149,51 +152,21 @@ export default function DashboardPage() {
 
           <div className="order-1 mx-auto w-full max-w-xl lg:order-2">
             <p className="mb-4 text-sm uppercase tracking-[0.2em] text-zinc-500">
-              Time navigation
+              One continuous timeline
             </p>
 
             <h2 className="text-4xl font-semibold tracking-tight sm:text-5xl">
-              The entire day moves with you.
+              Your DayFlow timeline builds itself throughout the day.
             </h2>
 
             <div className="mt-8 space-y-6 text-lg leading-8 text-zinc-400">
               <p>
-                Use the day arrows or calendar to move anywhere in your
-                history.
+                Meals, drinks and body weight appear as you log them, while
+                training, recovery and health data flow in automatically from
+                Apple Health and imported FIT files.
               </p>
-
-              <p>
-                The entire Dashboard moves with you — training, recovery,
-                nutrition, hydration, body metrics and daily logs.
-              </p>
-
-              <p>
-                Open any widget and its detail stays anchored to the day
-                you&apos;re exploring - giving you the complete context of that day.
-              </p>
-
-              
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* COACH CONTEXT */}
-      <section className="px-6 py-28">
-        <div className="mx-auto max-w-4xl text-center">
-          <p className="mb-4 text-sm uppercase tracking-[0.2em] text-zinc-500">
-            For coaches
-          </p>
-
-          <h2 className="text-4xl font-semibold tracking-tight sm:text-5xl">
-            Everything your athlete sees — you see too.
-          </h2>
-
-          <p className="mx-auto mt-8 max-w-3xl text-lg leading-8 text-zinc-400">
-            Coaches can move through that same history,
-            open the same daily context and analyze what actually happened —
-            without asking the athlete to reconstruct past days from memory.
-          </p>
         </div>
       </section>
 
