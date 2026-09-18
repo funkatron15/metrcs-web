@@ -155,21 +155,23 @@ export default function Home() {
 </a>
 
       {/* GOAL HUB */}
-      <section className="px-6 py-20">
-        <div className="mx-auto grid max-w-6xl items-center gap-16 lg:grid-cols-[330px_minmax(0,1fr)]">
-          <div className="order-2 lg:order-1">
-            <PhoneMockup src="/goalhub-v2.png" alt="MEtrcs Goal Hub" />
-          </div>
+<a href="/goalhub" className="block">
+  <section className="px-6 py-20">
+    <div className="mx-auto grid max-w-6xl items-center gap-16 lg:grid-cols-[330px_minmax(0,1fr)]">
+      <div className="order-2 lg:order-1">
+        <PhoneMockup src="/goalhub-v2.png" alt="MEtrcs Goal Hub" />
+      </div>
 
-          <div className="order-1 lg:order-2">
-            <FeatureText
-              eyebrow="Goal Hub"
-              title="Watch your goals come true."
-              body="Strength. Endurance. Body composition. You know best what you want."
-            />
-          </div>
-        </div>
-      </section>
+      <div className="order-1 lg:order-2">
+        <FeatureText
+          eyebrow="Goal Hub"
+          title="Watch your goals come true."
+          body="Strength. Endurance. Body composition. You know best what you want."
+        />
+      </div>
+    </div>
+  </section>
+</a>
 
       {/* PLANNER */}
       <section className="px-6 py-24">
