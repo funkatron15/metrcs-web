@@ -140,17 +140,19 @@ export default function Home() {
       </a>
 
       {/* ROUTE LAB */}
-      <section className="px-6 py-20">
-        <div className="mx-auto grid max-w-6xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_330px]">
-          <FeatureText
-            eyebrow="Route Lab"
-            title="Play with your favorite routes."
-            body="Drag route markers as you wish and compare split efforts across your history. Instantly."
-          />
+<a href="/routelab" className="block">
+  <section className="px-6 py-20">
+    <div className="mx-auto grid max-w-6xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_330px]">
+      <FeatureText
+        eyebrow="Route Lab"
+        title="Play with your favorite routes."
+        body="Drag route markers as you wish and compare split efforts across your history. Instantly."
+      />
 
-          <PhoneMockup src="/routelab-v2.png" alt="MEtrcs Route Lab" />
-        </div>
-      </section>
+      <PhoneMockup src="/routelab-v2.png" alt="MEtrcs Route Lab" />
+    </div>
+  </section>
+</a>
 
       {/* GOAL HUB */}
       <section className="px-6 py-20">
