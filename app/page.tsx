@@ -191,21 +191,23 @@ export default function Home() {
   </a>
 </section>
 
-      {/* COMPARATORS */}
-      <section className="px-6 py-24">
-        <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_640px]">
-          <FeatureText
-            eyebrow="Comparators"
-            title="Performance is never just one workout."
-            body="Compare training, recovery and load across time."
-          />
+     {/* COMPARATORS */}
+<a href="/comparators" className="block">
+  <section className="px-6 py-24 transition-opacity hover:opacity-90">
+    <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_640px]">
+      <FeatureText
+        eyebrow="Comparators"
+        title="Performance is never just one workout."
+        body="Compare training, recovery and load across time."
+      />
 
-          <DualPhoneMockups
-            first={{ src: "/comp1-v3.png", alt: "MEtrcs Month Comparator" }}
-            second={{ src: "/comp2-v2.png", alt: "MEtrcs Workout Comparator" }}
-          />
-        </div>
-      </section>
+      <DualPhoneMockups
+        first={{ src: "/comp1-v3.png", alt: "MEtrcs Month Comparator" }}
+        second={{ src: "/comp2-v2.png", alt: "MEtrcs Workout Comparator" }}
+      />
+    </div>
+  </section>
+</a>
 
       {/* ENDURANCE */}
       <section className="px-6 py-24">
