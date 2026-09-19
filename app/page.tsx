@@ -174,20 +174,22 @@ export default function Home() {
 </a>
 
       {/* PLANNER */}
-      <section className="px-6 py-24">
-        <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_640px]">
-          <FeatureText
-            eyebrow="Planner"
-            title="Best plans are those you can stick with."
-            body="Hybrid or single sport training plans built around real life — strength, endurance and recovery in one practical structure."
-          />
+<section className="px-6 py-24">
+  <a href="/planner" className="block">
+    <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_640px]">
+      <FeatureText
+        eyebrow="Planner"
+        title="Best plans are those you can stick with."
+        body="Hybrid or single sport training plans built around real life — strength, endurance and recovery in one practical structure."
+      />
 
-          <DualPhoneMockups
-            first={{ src: "/planner1.png", alt: "MEtrcs Planner Setup" }}
-            second={{ src: "/planner2-v4.png", alt: "MEtrcs Workout Detail" }}
-          />
-        </div>
-      </section>
+      <DualPhoneMockups
+        first={{ src: "/planner1.png", alt: "MEtrcs Planner Setup" }}
+        second={{ src: "/planner2-v4.png", alt: "MEtrcs Workout Detail" }}
+      />
+    </div>
+  </a>
+</section>
 
       {/* COMPARATORS */}
       <section className="px-6 py-24">
