@@ -210,36 +210,40 @@ export default function Home() {
 </a>
 
       {/* ENDURANCE */}
-      <section className="px-6 py-24">
-        <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_640px]">
-          <FeatureText
-            eyebrow="Endurance"
-            title="Because endurance matters."
-            body="Endurance is not just averages."
-          />
+<a href="/endurance" className="block">
+  <section className="px-6 py-24">
+    <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_640px]">
+      <FeatureText
+        eyebrow="Endurance"
+        title="Because endurance matters."
+        body="Endurance is not just averages."
+      />
 
-          <DualPhoneMockups
-            first={{ src: "/endurance1.png", alt: "MEtrcs Endurance Analysis" }}
-            second={{ src: "/endurance2.png", alt: "MEtrcs Heart Rate Analysis" }}
-          />
-        </div>
-      </section>
+      <DualPhoneMockups
+        first={{ src: "/endurance1.png", alt: "MEtrcs Endurance Analysis" }}
+        second={{ src: "/endurance2.png", alt: "MEtrcs Heart Rate Analysis" }}
+      />
+    </div>
+  </section>
+</a>
 
       {/* STRENGTH */}
-      <section className="px-6 py-24">
-        <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_640px]">
-          <FeatureText
-            eyebrow="Strength"
-            title="Because strength matters."
-            body="Log your strength now. Track your strength over time."
-          />
+<a href="/strength" className="block">
+  <section className="px-6 py-24 transition-opacity hover:opacity-90">
+    <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_640px]">
+      <FeatureText
+        eyebrow="Strength"
+        title="Because strength matters."
+        body="Log your strength now. Track your strength over time."
+      />
 
-          <DualPhoneMockups
-            first={{ src: "/strength1.png", alt: "MEtrcs Strength Training" }}
-            second={{ src: "/strength2-v2.png", alt: "MEtrcs Exercise Detail" }}
-          />
-        </div>
-      </section>
+      <DualPhoneMockups
+        first={{ src: "/strength1.png", alt: "MEtrcs Strength Training" }}
+        second={{ src: "/strength2-v2.png", alt: "MEtrcs Exercise Detail" }}
+      />
+    </div>
+  </section>
+</a>
 
       {/* NUTRITION & HYDRATION */}
       <section className="px-6 py-24">
