@@ -282,20 +282,22 @@ export default function Home() {
 </a>
 
       {/* CLIENT HUB */}
-      <section className="px-6 py-24">
-        <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_640px]">
-          <FeatureText
-            eyebrow="Client Hub"
-            title="Everything your athlete sees — you see too."
-            body="No need to interview your clients. They log, you analyze. Save your time. Save theirs."
-          />
+<a href="/client-hub" className="block">
+  <section className="px-6 py-24">
+    <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_640px]">
+      <FeatureText
+        eyebrow="Client Hub"
+        title="Everything your athlete sees — you see too."
+        body="No need to interview your clients. They log, you analyze. Save your time. Save theirs."
+      />
 
-          <DualPhoneMockups
-            first={{ src: "/clienthub1.png", alt: "MEtrcs Coach Hub Client List" }}
-            second={{ src: "/clienthub2.png", alt: "MEtrcs Coach View Load and Performance Trends" }}
-          />
-        </div>
-      </section>
+      <DualPhoneMockups
+        first={{ src: "/clienthub1.png", alt: "MEtrcs Coach Hub Client List" }}
+        second={{ src: "/clienthub2.png", alt: "MEtrcs Coach View Load and Performance Trends" }}
+      />
+    </div>
+  </section>
+</a>
 
       {/* IPAD */}
       <section className="px-6 py-28">
