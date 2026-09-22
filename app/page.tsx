@@ -87,23 +87,30 @@ export default function Home() {
   return (
     <main className="min-h-[82vh] overflow-hidden bg-black text-white">
       {/* HERO */}
-      <section className="relative flex min-h-screen flex-col items-center justify-center px-6 text-center">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.08),transparent_55%)]" />
+<section className="relative flex min-h-screen flex-col items-center justify-center px-6 text-center">
+  <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(255,255,255,0.08),transparent_55%)]" />
 
-        <div className="relative z-10 max-w-5xl">
-          <p className="mb-6 text-sm uppercase tracking-[0.25em] text-zinc-500">
-            MEtrcs
-          </p>
+  <div className="relative z-10 max-w-5xl">
+    <p className="mb-6 text-sm uppercase tracking-[0.25em] text-zinc-500">
+      MEtrcs
+    </p>
 
-          <h1 className="text-5xl font-semibold tracking-tight text-white sm:text-7xl">
-            The operating system for human performance
-          </h1>
+    <h1 className="text-5xl font-semibold tracking-tight text-white sm:text-7xl">
+      The operating system for human performance
+      <a
+        href="#about"
+        aria-label="About MEtrcs"
+        className="ml-1 inline-block align-super text-[0.32em] font-normal text-white/80 transition-opacity hover:opacity-100"
+      >
+        i
+      </a>
+    </h1>
 
-          <p className="mx-auto mt-8 max-w-2xl text-lg leading-8 text-zinc-400 sm:text-xl">
-            Designed with the precision of a pro tool and the respect for athlete intelligence.
-          </p>
-        </div>
-      </section>
+    <p className="mx-auto mt-8 max-w-2xl text-lg leading-8 text-zinc-400 sm:text-xl">
+      Designed with the precision of a pro tool and the respect for athlete intelligence.
+    </p>
+  </div>
+</section>
 
             {/* DASHBOARD */}
       <a href="/dashboard" className="block">
@@ -313,6 +320,59 @@ export default function Home() {
             src="/ipad-comp-v4.png"
             alt="MEtrcs iPad comparison"
           />
+        </div>
+      </section>
+
+      {/* ABOUT */}
+      <section
+        id="about"
+        className="scroll-mt-12 border-t border-white/10 px-6 py-28"
+      >
+        <div className="mx-auto max-w-4xl">
+          <p className="mb-4 text-sm uppercase tracking-[0.2em] text-zinc-500">
+            About MEtrcs
+          </p>
+
+          <h2 className="max-w-3xl text-4xl font-semibold tracking-tight text-white sm:text-5xl">
+            One place for the whole picture.
+          </h2>
+
+          <div className="mt-10 max-w-3xl space-y-7 text-lg leading-8 text-zinc-400">
+            <p>
+              MEtrcs is a performance tracking and training app for hybrid and
+              single-sport athletes. It brings training, strength, endurance,
+              recovery, sleep, nutrition, hydration, body composition and gear
+              into one connected history.
+            </p>
+
+            <p>
+  Sleep, HRV, resting heart rate, steps and energy data come from
+  Apple Health. Workouts can be imported from Apple Health as well,
+  while FIT files can add deeper training data from compatible
+  devices and platforms. MEtrcs also includes built-in manual loggers
+  for nutrition, hydration and strength training, keeping the data you
+  enter directly connected to the rest of your training history.
+</p>
+
+            <p>
+              MEtrcs is built for athletes who want to explore their own data.
+              Compare workouts, days, weeks and months. Analyze endurance and
+              strength over time. Explore nutrition and hydration around
+              training. Use Route Lab to examine repeated efforts on the same
+              routes, and Goal Hub to follow the goals that matter to you.
+            </p>
+
+            <p>
+              MEtrcs is local-first. There is no MEtrcs account and no MEtrcs
+              backend storing your personal training history. Your data stays
+              under your control on your devices and can sync between them
+              through your own iCloud.
+            </p>
+
+            <p className="text-white">
+              Your training. Your history. Your data.
+            </p>
+          </div>
         </div>
       </section>
 
