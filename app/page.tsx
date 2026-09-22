@@ -246,36 +246,40 @@ export default function Home() {
 </a>
 
       {/* NUTRITION & HYDRATION */}
-      <section className="px-6 py-24">
-        <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_640px]">
-          <FeatureText
-            eyebrow="Nutrition & Hydration"
-            title="Want to know how many carbs you ate 4 hours before your workout?"
-            body="Timestamped nutrition and hydration logs for a full physiological picture."
-          />
+<a href="/fuel" className="block">
+  <section className="px-6 py-24 transition-opacity hover:opacity-90">
+    <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_640px]">
+      <FeatureText
+        eyebrow="Nutrition & Hydration"
+        title="Want to know how many carbs you ate 4 hours before your workout?"
+        body="Timestamped nutrition and hydration logs for a full physiological picture."
+      />
 
-          <DualPhoneMockups
-            first={{ src: "/nutri-v2.png", alt: "MEtrcs Nutrition Tracking" }}
-            second={{ src: "/hydra-v3.png", alt: "MEtrcs Hydration Tracking" }}
-          />
-        </div>
-      </section>
+      <DualPhoneMockups
+        first={{ src: "/nutri-v2.png", alt: "MEtrcs Nutrition Tracking" }}
+        second={{ src: "/hydra-v3.png", alt: "MEtrcs Hydration Tracking" }}
+      />
+    </div>
+  </section>
+</a>
 
       {/* GEAR */}
-      <section className="px-6 py-24">
-        <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_640px]">
-          <FeatureText
-            eyebrow="Gear"
-            title="We love details."
-            body="Details complete the context."
-          />
+<a href="/gear" className="block">
+  <section className="px-6 py-24">
+    <div className="mx-auto grid max-w-7xl items-center gap-16 lg:grid-cols-[minmax(0,1fr)_640px]">
+      <FeatureText
+        eyebrow="Gear"
+        title="We love details."
+        body="Details complete the context."
+      />
 
-          <DualPhoneMockups
-            first={{ src: "/gear1.png", alt: "MEtrcs Gear List" }}
-            second={{ src: "/gear2-v3.png", alt: "MEtrcs Gear Comparison" }}
-          />
-        </div>
-      </section>
+      <DualPhoneMockups
+        first={{ src: "/gear1.png", alt: "MEtrcs Gear List" }}
+        second={{ src: "/gear2-v3.png", alt: "MEtrcs Gear Comparison" }}
+      />
+    </div>
+  </section>
+</a>
 
       {/* CLIENT HUB */}
       <section className="px-6 py-24">
