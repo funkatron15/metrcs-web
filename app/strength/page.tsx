@@ -1,9 +1,18 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "MEtrcs Strength | Log Every Set and Track Progress",
+  title: "Strength Training Log & Progress Tracking",
   description:
-    "Log strength workouts set by set with reps, weight, RPE and rest. Keep your exercise history and see how your strength progresses over time.",
+    "Log strength training set by set with MEtrcs. Track reps, weight, RPE, rest and equipment, keep your exercise history and follow strength progress over time.",
+  alternates: {
+    canonical: "/strength",
+  },
+  openGraph: {
+    title: "MEtrcs Strength | Training Log & Progress Tracking",
+    description:
+      "Log every set, rep, load and RPE, keep your complete exercise history and track strength progression over time.",
+    url: "/strength",
+  },
 };
 
 function PhoneMockup({

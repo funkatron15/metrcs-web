@@ -1,9 +1,18 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "MEtrcs Planner | Training and Nutrition Planned Together",
+  title: "Hybrid Training & Nutrition Planner",
   description:
-    "Build an 8-week training and nutrition plan for running, cycling, strength or hybrid training around your goals, available training days and calorie balance.",
+    "Build an 8-week running, cycling, strength or hybrid training plan with MEtrcs. Plan workouts, intensity, calories and macronutrients around your goals and available training days.",
+  alternates: {
+    canonical: "/planner",
+  },
+  openGraph: {
+    title: "MEtrcs Planner | Hybrid Training & Nutrition Plans",
+    description:
+      "Build an 8-week running, cycling, strength or hybrid plan with structured workouts, intensity targets, calories and macronutrients.",
+    url: "/planner",
+  },
 };
 
 function PhoneMockup({

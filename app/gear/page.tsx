@@ -1,9 +1,18 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "MEtrcs Gear | Connect Equipment to Your Training",
+  title: "Training Gear Tracking & Equipment Analysis",
   description:
-    "Track bikes, shoes, clothing and other training gear. Store detailed setups, connect equipment to workouts and see how every item performs over time.",
+    "Track bikes, shoes, clothing and other training gear with MEtrcs. Connect equipment and detailed bike setups to workouts, build usage history and compare gear alongside performance.",
+  alternates: {
+    canonical: "/gear",
+  },
+  openGraph: {
+    title: "MEtrcs Gear | Training Gear Tracking & Equipment Analysis",
+    description:
+      "Connect bikes, shoes and other gear to workouts, track usage history and compare detailed equipment setups alongside training performance.",
+    url: "/gear",
+  },
 };
 
 function PhoneMockup({

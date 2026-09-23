@@ -1,9 +1,18 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "MEtrcs Client Hub | Your Athlete's MEtrcs Inside Yours",
+  title: "Coaching & Athlete Training Analysis",
   description:
-    "Connect with your athletes and explore their MEtrcs training, recovery, nutrition, routes, statistics, comparisons and history from your own app.",
+    "MEtrcs Client Hub lets coaches explore their athletes' training, recovery, nutrition, hydration, routes, gear, statistics, comparisons and complete history inside their own MEtrcs app.",
+  alternates: {
+    canonical: "/client-hub",
+  },
+  openGraph: {
+    title: "MEtrcs Client Hub | Coaching & Athlete Training Analysis",
+    description:
+      "Connect with athletes and analyze their training, recovery, nutrition, hydration, routes, statistics, comparisons and history directly inside MEtrcs.",
+    url: "/client-hub",
+  },
 };
 
 function PhoneMockup({

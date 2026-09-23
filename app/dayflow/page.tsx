@@ -1,9 +1,18 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "MEtrcs DayFlow | Your Entire Day on One Timeline",
+  title: "Daily Timeline for Training, Recovery & Nutrition",
   description:
-    "Explore sleep, HRV, body weight, meals, hydration, caffeine and training on one continuous timeline. DayFlow brings the context of your entire athlete day together.",
+    "See sleep, HRV, body weight, meals, hydration, caffeine and training on one chronological timeline. MEtrcs DayFlow connects the context around your training.",
+  alternates: {
+    canonical: "/dayflow",
+  },
+  openGraph: {
+    title: "MEtrcs DayFlow | Your Athlete Day on One Timeline",
+    description:
+      "Sleep, HRV, body weight, meals, hydration, caffeine and training together on one chronological athlete timeline.",
+    url: "/dayflow",
+  },
 };
 
 function PhoneMockup({

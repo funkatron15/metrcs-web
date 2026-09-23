@@ -1,9 +1,18 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "MEtrcs Fuel | Nutrition, Hydration and Training Fuel",
+  title: "Timestamped Nutrition, Hydration & Fuel Tracking",
   description:
-    "Log nutrition and hydration with timestamps, track calories, macros, fluids, sodium and caffeine, and see your fuel in the context of your training.",
+    "Track nutrition, hydration and training fuel with timestamps in MEtrcs. Log calories, macros, carbohydrates, fluids, sodium and caffeine and connect your fuel directly to training.",
+  alternates: {
+    canonical: "/fuel",
+  },
+  openGraph: {
+    title: "MEtrcs Fuel | Timestamped Nutrition & Hydration Tracking",
+    description:
+      "Timestamp every meal and drink and see calories, macros, carbohydrates, fluids, sodium and caffeine in the context of your training.",
+    url: "/fuel",
+  },
 };
 
 function PhoneMockup({

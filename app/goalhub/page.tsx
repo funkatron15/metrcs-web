@@ -1,9 +1,18 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "MEtrcs Goal Hub | Watch Your Goals Come True",
+  title: "Goal Tracking for Strength, Endurance & Body Composition",
   description:
-    "Set body composition, strength, running, cycling and route goals. Follow your progress automatically as MEtrcs detects new attempts and performances.",
+    "Track strength, running, cycling, route and body composition goals with MEtrcs Goal Hub. Follow progress automatically as new performances and attempts are detected.",
+  alternates: {
+    canonical: "/goalhub",
+  },
+  openGraph: {
+    title: "MEtrcs Goal Hub | Strength, Endurance & Body Goals",
+    description:
+      "Set strength, endurance, route and body composition goals and follow your progress as new performances are detected.",
+    url: "/goalhub",
+  },
 };
 
 function PhoneMockup({

@@ -1,9 +1,18 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "MEtrcs Route Lab | Analyze Any Section of Any Route",
+  title: "Route Analysis & Historical Attempt Comparison",
   description:
-    "Choose any section of a workout route, explore exact time-range metrics, find matching attempts across your training history and compare them in seconds.",
+    "Analyze any section of a workout route, find matching attempts across your training history and compare performance, fuel, context and gear with MEtrcs Route Lab.",
+  alternates: {
+    canonical: "/routelab",
+  },
+  openGraph: {
+    title: "MEtrcs Route Lab | Analyze & Compare Route Attempts",
+    description:
+      "Choose any section of a workout route, find matching historical attempts and compare performance, fuel, context and gear.",
+    url: "/routelab",
+  },
 };
 
 function PhoneMockup({

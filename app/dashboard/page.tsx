@@ -1,9 +1,18 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "MEtrcs Dashboard | Your AthleteOS Command Centre",
+  title: "Athlete Dashboard for Training & Recovery",
   description:
-    "Explore training, recovery, nutrition, hydration, body metrics and daily logs together. MEtrcs Dashboard lets athletes and coaches navigate complete athlete days across history.",
+    "Explore training, recovery, nutrition, hydration and body metrics together in the MEtrcs athlete dashboard. Navigate complete athlete days across your history.",
+  alternates: {
+    canonical: "/dashboard",
+  },
+  openGraph: {
+    title: "MEtrcs Athlete Dashboard | Training & Recovery",
+    description:
+      "Training, recovery, nutrition, hydration and body metrics together in one navigable athlete dashboard.",
+    url: "/dashboard",
+  },
 };
 
 function PhoneMockup({

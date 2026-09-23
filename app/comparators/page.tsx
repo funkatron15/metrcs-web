@@ -1,9 +1,18 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "MEtrcs Comparators | Compare Training, Days, Weeks and Months",
+  title: "Workout, Day, Week & Month Comparison",
   description:
-    "Compare 2–5 workouts, days, weeks or months side by side. Choose any reference, see differences across your metrics and understand what actually changed.",
+    "Compare 2–5 workouts, days, weeks or months side by side in MEtrcs. Analyze training, recovery, HRV, heart rate, power, nutrition, hydration and performance over time.",
+  alternates: {
+    canonical: "/comparators",
+  },
+  openGraph: {
+    title: "MEtrcs Comparators | Compare Workouts, Days, Weeks & Months",
+    description:
+      "Compare workouts and complete athlete days, weeks or months side by side across training, recovery, nutrition, hydration and performance metrics.",
+    url: "/comparators",
+  },
 };
 
 function PhoneMockup({

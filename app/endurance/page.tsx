@@ -1,9 +1,18 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "MEtrcs Endurance | Go Beyond Workout Averages",
+  title: "Endurance Training Analysis for Athletes",
   description:
-    "Analyze running and cycling beyond averages. Explore heart rate, power, pace, cadence, grade, terrain, efficiency, laps and deeper endurance metrics in context.",
+    "Analyze endurance training beyond averages with MEtrcs. Explore running and cycling in depth across heart rate, power, pace, cadence, zones, grade, terrain, efficiency and more.",
+  alternates: {
+    canonical: "/endurance",
+  },
+  openGraph: {
+    title: "MEtrcs Endurance | Training Analysis Beyond Averages",
+    description:
+      "Analyze endurance workouts in context, with deep running and cycling analysis across heart rate, power, pace, cadence, terrain, grade and more.",
+    url: "/endurance",
+  },
 };
 
 function PhoneMockup({
