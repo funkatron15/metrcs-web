@@ -52,10 +52,6 @@ export const metadata: Metadata = {
   description:
     "MEtrcs is a training and performance app for hybrid athletes, runners, cyclists and strength athletes. Track training, recovery, sleep, HRV, nutrition and hydration, compare performance over time and keep your data under your control.",
 
-  alternates: {
-    canonical: "/",
-  },
-
   icons: {
     icon: "/favicon.png",
   },
