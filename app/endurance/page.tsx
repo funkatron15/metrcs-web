@@ -312,6 +312,23 @@ export default function EndurancePage() {
           </div>
 
           <div className="flex items-center gap-6">
+<a
+  href="https://www.instagram.com/metrcs.athleteos"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="transition-colors hover:text-white"
+>
+  Instagram
+</a>
+
+<a
+  href="https://www.youtube.com/@MEtrcs"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="transition-colors hover:text-white"
+>
+  YouTube
+</a>
             <a
               href="/"
               className="transition-colors hover:text-white"
