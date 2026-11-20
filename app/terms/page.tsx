@@ -1,3 +1,4 @@
+
 export default function TermsPage() {
   return (
     <main className="min-h-screen bg-black px-6 py-24 text-white">
@@ -11,7 +12,7 @@ export default function TermsPage() {
         </h1>
 
         <p className="mt-4 text-sm text-zinc-500">
-          Last updated: May 2026
+          Last updated: November 20, 2026
         </p>
 
         <div className="mt-12 space-y-10 text-zinc-400">
@@ -25,6 +26,11 @@ export default function TermsPage() {
               MEtrcs is an application for tracking, analysis and planning of
               training, nutrition, hydration, recovery and related performance
               data.
+            </p>
+
+            <p className="mt-4 leading-8">
+              By using MEtrcs, you agree to these Terms & Conditions and
+              acknowledge the information provided in our Privacy Policy.
             </p>
           </section>
 
@@ -50,8 +56,8 @@ export default function TermsPage() {
             </h2>
 
             <p className="leading-8">
-              All training, nutrition and recovery decisions are made at your own
-              risk.
+              You are responsible for your training, nutrition and recovery
+              decisions.
             </p>
 
             <p className="mt-4 leading-8">
@@ -75,11 +81,97 @@ export default function TermsPage() {
 
           <section>
             <h2 className="mb-3 text-xl font-semibold text-white">
+              Coaching and Client Hub
+            </h2>
+
+            <p className="leading-8">
+              MEtrcs allows athletes and coaches to collaborate through Client Hub.
+              A coach can access shared client information only after the client
+              explicitly authorizes the connection.
+            </p>
+
+            <p className="mt-4 leading-8">
+              Coaches must treat shared client information as confidential and
+              use it only for the agreed coaching service. Coaches must not sell,
+              disclose or use client information for advertising purposes.
+            </p>
+
+            <p className="mt-4 leading-8">
+              MEtrcs provides analytical information to support coaching, but
+              does not replace professional judgment. Coaches remain responsible
+              for their coaching decisions and recommendations.
+            </p>
+
+            <p className="mt-4 leading-8">
+              Clients may disconnect their coaches at any time. Disconnecting
+              removes access to shared client information through MEtrcs,
+              including historical information. It cannot undo information
+              previously viewed or independently saved outside the application.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="mb-3 text-xl font-semibold text-white">
+              Subscriptions and payments
+            </h2>
+
+            <p className="leading-8">
+              Certain MEtrcs features require a paid subscription.
+              Available plans, subscription periods, prices and included
+              features are displayed in the application before purchase.
+            </p>
+
+            <p className="mt-4 leading-8">
+              Subscriptions purchased through the Apple App Store are
+              processed and billed by Apple. They automatically renew
+              unless canceled by the subscriber.
+            </p>
+
+            <p className="mt-4 leading-8">
+              You can manage or cancel your subscription through your
+              Apple Account subscription settings. Cancellation generally
+              takes effect at the end of the current paid subscription period.
+            </p>
+
+            <p className="mt-4 leading-8">
+              Refunds and billing disputes are handled according to
+              Apple's applicable policies and consumer protection laws.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="mb-3 text-xl font-semibold text-white">
+              Privacy and data sharing
+            </h2>
+
+            <p className="leading-8">
+              MEtrcs processes training and performance information locally
+              and synchronizes selected app data through Apple iCloud
+              (CloudKit).
+            </p>
+
+            <p className="mt-4 leading-8">
+              Details about data processing, iCloud synchronization,
+              coach sharing, permissions and data deletion are explained
+              in our{" "}
+              <a
+                href="/privacy"
+                className="text-white underline underline-offset-4"
+              >
+                Privacy Policy
+              </a>
+              .
+            </p>
+          </section>
+
+          <section>
+            <h2 className="mb-3 text-xl font-semibold text-white">
               Availability
             </h2>
 
             <p className="leading-8">
-              MEtrcs is provided “as is” without warranties of any kind.
+              MEtrcs is provided on an "as available" basis, subject to
+              applicable legal requirements and consumer rights.
             </p>
 
             <p className="mt-4 leading-8">
@@ -94,10 +186,17 @@ export default function TermsPage() {
             </h2>
 
             <p className="leading-8">
-              To the maximum extent permitted by law, MEtrcs and its creator are
-              not liable for injuries, health issues, losses, damages or other
-              consequences resulting from the use of the application or its
-              outputs.
+              To the maximum extent permitted by applicable law, MEtrcs
+              and its creator are not liable for injuries, health issues,
+              losses, damages or other consequences resulting from
+              inappropriate reliance on the application's estimates,
+              analytics or outputs.
+            </p>
+
+            <p className="mt-4 leading-8">
+              Nothing in these terms excludes or limits rights or
+              liabilities that cannot legally be excluded or limited,
+              including applicable consumer protection rights.
             </p>
           </section>
 
@@ -111,8 +210,9 @@ export default function TermsPage() {
             </p>
 
             <p className="mt-4 leading-8">
-              Continued use of MEtrcs after updates to these terms constitutes
-              acceptance of the revised terms.
+              Significant changes will be communicated where required,
+              and renewed acceptance may be requested when necessary.
+              Changes do not affect mandatory rights under applicable law.
             </p>
           </section>
 
@@ -129,6 +229,7 @@ export default function TermsPage() {
               >
                 martin@metrcs.org
               </a>
+              .
             </p>
           </section>
 
